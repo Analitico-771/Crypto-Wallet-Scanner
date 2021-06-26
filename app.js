@@ -4,7 +4,7 @@ const Web3 = require('web3');
 const fetch = require('node-fetch');
 const dotenv = require('dotenv').config();
 
-const rpcURL = process.env.RPC_URL;//rpcURL MainNet, KOVAN, BINANCE, etc
+const rpcURL = process.env.RPC_URL; //rpcURL MainNet, KOVAN, BINANCE, etc
 const apiKey = process.env.API_KEY;
 const walletAddress = process.env.WALLET_ADDRESS;
 const contractAddress = process.env.CONTRACT_ADDRESS;
